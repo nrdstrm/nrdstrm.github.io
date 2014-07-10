@@ -1,6 +1,8 @@
 if (window.DeviceOrientationEvent) {
 	alert('DeviceOrientationEvent');
 
+	var wrapper = document.body;
+
 	window.addEventListener('deviceorientation', function (eventData) {
 
 /*
@@ -17,7 +19,8 @@ if (window.DeviceOrientationEvent) {
 			x = -(x + 80);
 		}
 
-		document.getElementById('log').innerHTML = 'x: ' + x + ', y: ' + y;
+		var position = y + 'px ' + x + 'px';
+		wrapper.style.backgroundPosition = position;
 
 	}, false);
 }
