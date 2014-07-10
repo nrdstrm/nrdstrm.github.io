@@ -1,18 +1,23 @@
 body {
+	color: #ffffff;
 	background: url(/assets/images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
-	color: #ffffff;
+	-webkit-user-select: none; 
+	-khtml-user-select: none; 
+	-moz-user-select: none; 
+	-o-user-select: none; 
+	user-select: none; 
 }
 
 h1, h2 {
 	margin: 0;
 	padding: 0;
+	-webkit-opacity: 0.8;
+	-moz-opacity: 0.8;
 	opacity: 0.8;
-	-moz-opacity: 0.80;;
-	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
 }
 
 h1 { 
