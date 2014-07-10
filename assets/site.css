@@ -1,0 +1,35 @@
+body {
+	background: url(/assets/images/bg.jpg) no-repeat center center fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #ffffff;
+}
+
+h1, h2 {
+	margin: 0;
+	padding: 0;
+	opacity: 0.8;
+	-moz-opacity: 0.80;;
+	-ms-filter:"progid:DXImageTransform.Microsoft.Alpha"(Opacity=80);
+}
+
+h1 { 
+	font: 100 92px/1.5 "lato";
+}
+
+h2 {
+	font: normal 31px/1 "Grand Hotel", cursive;
+}
+
+#wrapper {
+	margin: auto;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	height: 200px;
+	text-align: center;
+}
