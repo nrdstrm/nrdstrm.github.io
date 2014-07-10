@@ -17,7 +17,7 @@ if (window.DeviceOrientationEvent) {
 			x = -(x + 80);
 		}
 
-		document.getElementById('log').value = 'test'; //x: ' + x + ', y: ' + y;
+		document.getElementById('log').innerHTML = x: ' + x + ', y: ' + y;
 
 	}, false);
 }
