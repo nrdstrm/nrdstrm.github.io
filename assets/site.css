@@ -1,3 +1,12 @@
+@viewport{
+	zoom: 1.0;
+	width: extend-to-zoom;
+}
+@-ms-viewport{
+	width: extend-to-zoom;
+	zoom: 1.0;
+}
+
 body {
 	color: #ffffff;
 	background: url(/assets/images/bg.jpg) no-repeat center center fixed;
