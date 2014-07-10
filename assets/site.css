@@ -16,6 +16,23 @@
     }
 }
 
+@font-face {
+    font-family: 'latohairline';
+    src: url('/assets/fonts/lato-hai-webfont.eot');
+    src: url('/assets/fonts/lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/lato-hai-webfont.svg#latohairline') format('svg'),
+         url('/assets/fonts/lato-hai-webfont.woff') format('woff'),
+         url('/assets/fonts/lato-hai-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    @font-face {
+        font-family: 'latohairline';
+            src: url('/assets/fonts/lato-hai-webfont.svg#latohairline');
+    }
+}
+
 /* styles */
 body {
 	color: #ffffff;
@@ -41,7 +58,7 @@ h1, h2 {
 }
 
 h1 { 
-	font: 100 92px/1.5 "lato";
+	font: 100 92px/1.5 "latohairline";
 }
 
 h2 {
