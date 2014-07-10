@@ -4,6 +4,8 @@ if (window.DeviceOrientationEvent) {
 	var wrapper = document.body;
 
 	window.addEventListener('deviceorientation', function (eventData) {
+		
+		return;
 
 /*
 		if (!eventData.beta && !eventData.gamma)
