@@ -1,6 +1,4 @@
 if (window.DeviceOrientationEvent) {
-	alert('DeviceOrientationEvent');
-
 	var wrapper = document.body;
 
 	window.addEventListener('deviceorientation', function (eventData) {
