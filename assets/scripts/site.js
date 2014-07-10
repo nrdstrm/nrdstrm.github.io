@@ -18,10 +18,7 @@ if (window.DeviceOrientationEvent) {
 		}
 
 		var log = document.getElementById('log');
-		
-		if (!log) {
-			alert(log);
-		}
+		alert(log);
 
 		log.value = 'x: ' + x + ', y: ' + y;
 
