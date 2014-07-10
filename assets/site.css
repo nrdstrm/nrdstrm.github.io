@@ -64,11 +64,11 @@ h1, h2 {
 }
 
 h1 { 
-	font: 100 92px/1.5 "latohairline";
+	font: 100 140px/1.5 "latohairline";
 }
 
 h2 {
-	font: normal 31px/1 "grand_hotelregular", cursive;
+	font: normal 35px/1 "grand_hotelregular", cursive;
 }
 
 #wrapper {
