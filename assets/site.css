@@ -34,25 +34,23 @@
 }
 
 /* styles */
-html, body {
-	color: #ffffff;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
+html { 
+	font-size: 100%; 
 	-webkit-text-size-adjust: 120%; 
 	-ms-text-size-adjust: 120%; 
-	font-size: 100%;
 }
 
-/*
 body {
 	color: #ffffff;
 	background: url(/assets/images/bg.jpg) no-repeat center center fixed;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
-	background-size: cover;
+    -webkit-background-size: 100%; 
+    -moz-background-size: 100%; 
+    -o-background-size: 100%; 
+    background-size: 100%; 
+    -webkit-background-size: cover; 
+    -moz-background-size: cover; 
+    -o-background-size: cover; 
+    background-size: cover; 
 	-webkit-user-select: none; 
 	-khtml-user-select: none; 
 	-moz-user-select: none; 
@@ -60,7 +58,6 @@ body {
 	-o-user-select: none; 
 	user-select: none; 
 }
-*/
 
 h1, h2 {
 	margin: 0;
@@ -76,17 +73,6 @@ h1 {
 
 h2 {
 	font: normal 35px/1 "grand_hotelregular", cursive;
-}
-
-#background {
-	background: url(/assets/images/bg.jpg);
-	background-position: -10px -10px;
-	-webkit-background-size: 110% 110%;
-	-moz-background-size: 110% 110%;
-	-o-background-size: 110% 110%;
-	background-size: 110% 110%;
-	height: 110%%;
-	width: 110%;
 }
 
 #wrapper {
