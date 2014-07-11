@@ -1,50 +1,36 @@
 /* fonts */
 @font-face {
-font-family: 'grand_hotelregular';
-	src: url('/assets/fonts/grandhotel-regular-webfont.eot');
-	src: url('/assets/fonts/grandhotel-regular-webfont.eot?#iefix') format('embedded-opentype'),
-			 url('/assets/fonts/grandhotel-regular-webfont.svg#grand_hotelregular') format('svg'), 
-			 url('/assets/fonts/grandhotel-regular-webfont.woff') format('woff'),
-			 url('/assets/fonts/grandhotel-regular-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'grand_hotelregular';
+    src: url('/assets/fonts/grandhotel-regular-webfont.eot');
+    src: url('/assets/fonts/grandhotel-regular-webfont.eot?#iefix') format('embedded-opentype'),
+	 url('/assets/fonts/grandhotel-regular-webfont.svg#grand_hotelregular') format('svg'), 
+         url('/assets/fonts/grandhotel-regular-webfont.woff') format('woff'),
+         url('/assets/fonts/grandhotel-regular-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family: 'grand_hotelregular';
-		src: url('/assets/fonts/grandhotel-regular-webfont.svg#grand_hotelregular');
-	}
+    @font-face {
+        font-family: 'grand_hotelregular';
+            src: url('/assets/fonts/grandhotel-regular-webfont.svg#grand_hotelregular');
+    }
 }
 
 @font-face {
-	font-family: 'latohairline';
-	src: url('/assets/fonts/lato-hai-webfont.eot');
-	src: url('/assets/fonts/lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
-			 url('/assets/fonts/lato-hai-webfont.svg#latohairline') format('svg'),
-			 url('/assets/fonts/lato-hai-webfont.woff') format('woff'),
-			 url('/assets/fonts/lato-hai-webfont.ttf') format('truetype');
-	font-weight: normal;
-	font-style: normal;
+    font-family: 'latohairline';
+    src: url('/assets/fonts/lato-hai-webfont.eot');
+    src: url('/assets/fonts/lato-hai-webfont.eot?#iefix') format('embedded-opentype'),
+         url('/assets/fonts/lato-hai-webfont.svg#latohairline') format('svg'),
+         url('/assets/fonts/lato-hai-webfont.woff') format('woff'),
+         url('/assets/fonts/lato-hai-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 @media screen and (-webkit-min-device-pixel-ratio:0) {
-	@font-face {
-		font-family: 'latohairline';
-		src: url('/assets/fonts/lato-hai-webfont.svg#latohairline');
-	}
-}
-
-@media screen and (orientation:portrait) {
-	body {
-		background-image: url(/assets/images/bg.jpg) no-repeat center center fixed;
-		background-size: auto 100%;
-	}
-}
-
-@media screen and (orientation: landscape) {
-	body {
-		background-image: url(/assets/images/bg.jpg) no-repeat center center fixed;
-		background-size: 100% auto;
-	}
+    @font-face {
+        font-family: 'latohairline';
+            src: url('/assets/fonts/lato-hai-webfont.svg#latohairline');
+    }
 }
 
 /* styles */
@@ -56,7 +42,6 @@ html {
 
 body {
 	color: #ffffff;
-	/*
 	background: url(/assets/images/bg.jpg) no-repeat center center fixed;
 	-webkit-background-size: 100%; 
 	-moz-background-size: 100%; 
@@ -66,7 +51,6 @@ body {
 	-moz-background-size: cover; 
 	-o-background-size: cover; 
 	background-size: cover; 
-	*/
 	-webkit-user-select: none; 
 	-khtml-user-select: none; 
 	-moz-user-select: none; 
